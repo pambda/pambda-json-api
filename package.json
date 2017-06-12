@@ -1,0 +1,30 @@
+{
+  "name": "pambda-json-api",
+  "version": "0.0.1",
+  "description": "Pambda for JSON API",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pambda/pambda-json-api/issues"
+  },
+  "dependencies": {
+    "content-type": "^1.0.2"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pambda/pambda-json-api",
+  "keywords": [
+    "aws",
+    "lambda",
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pambda/pambda-json-api.git"
+  },
+  "scripts": {},
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
