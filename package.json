@@ -7,6 +7,7 @@
     "url": "https://github.com/pambda/pambda-json-api/issues"
   },
   "dependencies": {
+    "caseless-get": "0.0.1",
     "content-type": "^1.0.2"
   },
   "devDependencies": {},
