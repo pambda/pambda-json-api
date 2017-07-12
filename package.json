@@ -9,7 +9,8 @@
   "dependencies": {
     "caseless-get": "0.0.1",
     "content-type": "^1.0.2",
-    "err-json": "0.0.1"
+    "err-json": "0.0.3",
+    "lambda-console": "0.0.1"
   },
   "devDependencies": {},
   "homepage": "https://github.com/pambda/pambda-json-api",
