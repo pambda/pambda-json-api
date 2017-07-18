@@ -12,10 +12,13 @@
     "err-json": "0.0.3",
     "lambda-console": "0.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.7.0"
+  },
   "homepage": "https://github.com/pambda/pambda-json-api",
   "keywords": [
     "aws",
+    "jsonapi",
     "lambda",
     "pambda"
   ],
@@ -25,7 +28,10 @@
     "type": "git",
     "url": "git+https://github.com/pambda/pambda-json-api.git"
   },
-  "scripts": {},
+  "scripts": {
+    "prepare": "npm test",
+    "test": "tape test/test*.js"
+  },
   "files": [
     "README.md",
     "lib/"
