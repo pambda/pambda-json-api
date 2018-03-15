@@ -29,7 +29,7 @@
     "url": "git+https://github.com/pambda/pambda-json-api.git"
   },
   "scripts": {
-    "prepare": "npm test",
+    "prepublishOnly": "npm test",
     "test": "tape test/test*.js"
   },
   "files": [
