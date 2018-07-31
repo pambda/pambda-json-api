@@ -9,9 +9,9 @@
   "dependencies": {
     "caseless-get": "0.0.3",
     "content-type": "^1.0.4",
-    "err-json": "0.0.3",
+    "err-json": "0.0.4",
     "lambda-callbackify": "0.0.1",
-    "lambda-console": "0.0.1"
+    "lambda-console": "0.0.2"
   },
   "devDependencies": {
     "tape": "^4.9.0"
