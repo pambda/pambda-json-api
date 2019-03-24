@@ -5,15 +5,15 @@ Pambda for JSON API.
 ## Installation
 
 ```
-npm i pambda-json-api -S
+npm i pambda-json-api
 ```
 
 ## Usage
 
 ``` javascript
-import { compose, createLambda } from 'pambda';
-import { router } from 'pambda-router';
-import { jsonApi } from 'pambda-json-api';
+const { compose, createLambda } = require('pambda');
+const { router } = require('pambda-router');
+const { jsonApi } = require('pambda-json-api');
 
 export const handler = createLambda(
   compose(
