@@ -11,7 +11,7 @@
     "content-type": "^1.0.4",
     "err-json": "0.0.4",
     "lambda-callbackify": "0.0.1",
-    "lambda-console": "0.0.2"
+    "lambda-console": "^0.1.0"
   },
   "devDependencies": {
     "tape": "^4.9.0"
