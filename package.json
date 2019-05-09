@@ -1,6 +1,6 @@
 {
   "name": "pambda-json-api",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Pambda for JSON API",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
