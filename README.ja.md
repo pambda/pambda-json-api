@@ -5,7 +5,7 @@ JSON API 用の Pambda.
 ## Installation
 
 ```
-npm i pambda-json-api -S
+npm i pambda-json-api
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ export const handler = createLambda(
          next => (event, context, callback) => {
            // API ハンドリング
          }),
-      ))
+      )
       .toPambda()
   )
 );
