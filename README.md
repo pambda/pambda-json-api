@@ -18,7 +18,7 @@ const { jsonApi } = require('pambda-json-api');
 export const handler = createLambda(
   compose(
     router()
-      .post('/api/*', compose(
+      .post('/api/(.*)', compose(
          jsonApi({
            reqJsonOnly: true,
            resJsonOnly; true,
