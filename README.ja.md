@@ -28,8 +28,8 @@ export const handler = createLambda(
          }),
          next => (event, context, callback) => {
            // API ハンドリング
-         }),
-      )
+         },
+      ))
       .toPambda()
   )
 );
