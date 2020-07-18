@@ -21,7 +21,7 @@ export const handler = createLambda(
       .post('/api/(.*)', compose(
          jsonApi({
            reqJsonOnly: true,
-           resJsonOnly; true,
+           resJsonOnly: true,
            errorHandler: (err, event, context, callback) => {
              // Custom error handling
            },
