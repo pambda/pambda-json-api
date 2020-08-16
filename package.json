@@ -7,14 +7,14 @@
     "url": "https://github.com/pambda/pambda-json-api/issues"
   },
   "dependencies": {
-    "caseless-get": "0.0.3",
+    "caseless-get": "^0.1.0",
     "content-type": "^1.0.4",
-    "err-json": "0.0.4",
-    "lambda-callbackify": "0.0.1",
-    "lambda-console": "^0.1.0"
+    "err-json": "^0.1.0",
+    "lambda-callbackify": "^0.1.1",
+    "lambda-console": "^0.1.2"
   },
   "devDependencies": {
-    "tape": "^4.9.0"
+    "tape": "^5.0.1"
   },
   "homepage": "https://github.com/pambda/pambda-json-api",
   "keywords": [
